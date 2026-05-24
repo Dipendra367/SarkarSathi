@@ -1,3 +1,4 @@
+<img width="1920" height="940" alt="Screenshot from 2026-05-24 23-26-24" src="https://github.com/user-attachments/assets/f36eb11f-7868-461a-918b-44418e56d794" />
 # 🇳🇵 SarkaarSathi — Nepal's AI Government Assistant
 
 > AI-powered legal assistant that helps Nepali citizens understand their rights, navigate government services, and generate official complaint letters in Nepali language.
@@ -176,10 +177,13 @@ MIT License — free to use, modify, and distribute.
 ## 📸 Screenshots
 
 ### 🏠 Home — Input Your Problem
-![Home](screenshots/01_home.png)
+<img width="1920" height="940" alt="Screenshot from 2026-05-24 23-26-24" src="https://github.com/user-attachments/assets/abf7f31c-7463-4d41-bb2a-7dec68766f63" />
+
 
 ### ⚖️ Legal Analysis — Case Strength + Action Steps
-![Analysis](screenshots/02_analysis.png)
+<img width="1920" height="940" alt="Screenshot from 2026-05-24 23-28-30" src="https://github.com/user-attachments/assets/efa008f0-7e83-46d2-b20c-49b23b921b8b" />
+
 
 ### ✉️ Official Complaint Letter in Nepali
-![Letter](screenshots/03_letter.png)
+<img width="1920" height="940" alt="Screenshot from 2026-05-24 23-28-42" src="https://github.com/user-attachments/assets/d1ca8b97-5b52-4c3b-8da2-af60f39aebd3" />
+
