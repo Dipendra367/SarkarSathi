@@ -1,0 +1,12 @@
+.env
+db/
+__pycache__/
+*.pkl
+*.bin
+*.sqlite3
+venv/
+.venv/
+*.ttf
+*.cw127.pkl
+docs/
+.idea/
