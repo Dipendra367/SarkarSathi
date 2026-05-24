@@ -1,4 +1,4 @@
-<img width="1920" height="940" alt="Screenshot from 2026-05-24 23-26-24" src="https://github.com/user-attachments/assets/f36eb11f-7868-461a-918b-44418e56d794" />
+
 # 🇳🇵 SarkaarSathi — Nepal's AI Government Assistant
 
 > AI-powered legal assistant that helps Nepali citizens understand their rights, navigate government services, and generate official complaint letters in Nepali language.
