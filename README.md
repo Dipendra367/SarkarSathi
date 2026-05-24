@@ -23,19 +23,17 @@ SarkaarSathi is a Multi-Agent RAG system built specifically for Nepal. Most Nepa
 ---
 
 ## 🏗️ Architecture
-User Input (Nepali/English)
-↓
-Validation Agent — rejects nonsense/emotional/medical
-↓
-Router Agent — LABOUR / CITIZENSHIP / LAND / CONSUMER / RIGHTS
-↓
-Specialist Agent — ChromaDB RAG → law analysis → case strength
-↓
-Letter Generator — official Nepali complaint letter
-↓
-User edits → downloads PDF
 
----
+```mermaid
+flowchart TD
+    A[👤 User Input\nNepali or English] --> B[🛡️ Agent 1 — Validator\nVALID / EMOTIONAL / NONSENSE / MEDICAL]
+    B -->|VALID| C[🔀 Agent 2 — Router\nLABOUR / CITIZENSHIP / LAND / CONSUMER / RIGHTS]
+    B -->|Invalid| X[❌ Rejected with explanation]
+    C --> D[⚖️ Agent 3 — Specialist RAG\nSearches 608 pages of Nepal Law\nChromaDB Vector Search]
+    D --> E[📋 Legal Analysis\nCase Strength + Laws Violated\nAction Steps + Source Citations]
+    E --> F[✉️ Agent 4 — Letter Generator\nOfficial Nepali Complaint Letter\nBikram Sambat Date]
+    F --> G[📄 Editable Letter + PDF Download]
+```
 
 ## ✨ Features
 
@@ -94,22 +92,18 @@ Total: 608 pages of searchable Nepal law
 ---
 
 ## 📁 Project Structure
-SarkaarSathi/
-├── app.py                  # Main app — all 4 agents
-├── ingest.py               # PDF ingestion and RAG setup
-├── Mukta-Regular.ttf       # Nepali font for PDF generation
-├── docs/                   # Nepal law PDF documents
-│   ├── Constitution-of-Nepal_2072_Eng.pdf
-│   ├── Constitution-of-Nepal_2072_Nepali.pdf
-│   ├── The-Labor-Act-2017-2074.pdf
-│   ├── Labour-Act-Nepali.pdf
-│   └── Citizenship-Act-2063.pdf
-├── db/                     # ChromaDB vector database (auto-generated)
-├── requirements.txt
-├── .env                    # API keys (not committed)
-└── README.md
 
----
+` ` `
+SarkaarSathi/
+├── app.py
+├── ingest.py
+├── Mukta-Regular.ttf
+├── docs/
+├── db/
+├── requirements.txt
+├── .env
+└── README.md
+` ` `
 
 ## 🚀 Getting Started
 
